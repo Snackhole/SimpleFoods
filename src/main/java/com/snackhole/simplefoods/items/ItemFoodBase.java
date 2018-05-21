@@ -1,7 +1,6 @@
 package com.snackhole.simplefoods.items;
 
 import com.snackhole.simplefoods.SimpleFoodsMain;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemFood;
 
 public class ItemFoodBase extends ItemFood {
@@ -16,11 +15,5 @@ public class ItemFoodBase extends ItemFood {
 
     public void registerItemModel() {
         SimpleFoodsMain.proxy.registerItemRenderer(this, 0, name);
-    }
-
-    @Override
-    public ItemFoodBase setCreativeTab(CreativeTabs tab) {
-        super.setCreativeTab(tab);
-        return this;
     }
 }
