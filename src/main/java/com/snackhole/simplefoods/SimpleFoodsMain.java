@@ -2,6 +2,7 @@ package com.snackhole.simplefoods;
 
 import com.snackhole.simplefoods.items.ModItems;
 import com.snackhole.simplefoods.proxy.IProxy;
+import com.snackhole.simplefoods.recipe.ModRecipes;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
@@ -29,6 +30,7 @@ public class SimpleFoodsMain {
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
+        ModRecipes.init();
         proxy.init(event);
     }
 
