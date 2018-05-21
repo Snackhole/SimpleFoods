@@ -1,0 +1,16 @@
+[
+{
+  "modid": "simplefoods",
+  "name": "Simple Foods",
+  "description": "Simple, balanced additions to food to make it less of a hassle.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Snackhole"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
