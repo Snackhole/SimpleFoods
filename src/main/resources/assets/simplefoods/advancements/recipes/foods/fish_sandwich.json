@@ -2,14 +2,14 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "simplefoods:porksandwich"
+      "simplefoods:fish_sandwich"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "simplefoods:porksandwich"
+        "recipe": "simplefoods:fish_sandwich"
       }
     },
     "has_bread": {
@@ -27,7 +27,8 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:cooked_porkchop"
+            "item": "minecraft:cooked_fish",
+            "data": 0
           }
         ]
       }

@@ -10,11 +10,11 @@
       "item": "minecraft:bread"
     },
     "M": {
-      "item": "minecraft:cooked_beef"
+      "item": "minecraft:cooked_porkchop"
     }
   },
   "result": {
-    "item": "simplefoods:beefsandwich",
+    "item": "simplefoods:pork_sandwich",
     "count": 2
   }
 }

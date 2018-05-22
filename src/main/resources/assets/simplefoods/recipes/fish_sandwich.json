@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B",
+    "M",
+    "B"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bread"
+    },
+    "M": {
+      "item": "minecraft:cooked_fish",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "simplefoods:fish_sandwich",
+    "count": 2
+  }
+}
